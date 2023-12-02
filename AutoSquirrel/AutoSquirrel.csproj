@@ -31,7 +31,7 @@
   <ItemGroup>
     <PackageReference Include="AWSSDK.S3" Version="3.7.304.1" />
     <PackageReference Include="Caliburn.Micro" Version="3.2.0" />
-    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
     <PackageReference Include="gong-wpf-dragdrop" Version="2.4.3" />
     <PackageReference Include="MultiSelectTreeView" Version="1.0.9" />
     <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
