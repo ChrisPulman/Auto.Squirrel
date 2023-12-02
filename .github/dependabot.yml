@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: monthly
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: FluentValidation
+    versions:
+    - 9.3.0
+    - 9.5.0
+    - 9.5.1
+  - dependency-name: AWSSDK.S3
+    versions:
+    - 3.5.7.12
+    - 3.5.7.4
+  - dependency-name: MahApps.Metro
+    versions:
+    - 2.4.3
